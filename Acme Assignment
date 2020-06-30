@@ -39,3 +39,7 @@ public class AcmeAssignment {
 		System.out.println("No of columns in a table: " +eColumns.size());
 		
 		System.out.println("Country name is : " +eColumns.get(4).getText());
+		
+		driver.findElementByLinkText("Log Out").click();
+		
+		driver.close();
